@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Rafael Filipe Lopes Matos</h1>
+        <nav>
+            <ul>
+                <li><a href="#identificacao">Identificação</a></li>
+                <li><a href="#formacao">Formação Acadêmica</a></li>
+                <li><a href="#atuacao">Atuação Profissional</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="identificacao">
+        <h2>Identificação</h2>
+        <p>Nome: Meu Nome</p>
+        <p>Email: meuemail@exemplo.com</p>
+    </section>
+
+    <section id="formacao">
+        <h2>Formação Acadêmica</h2>
+        <p1>Especializado em Direito Médico e uma vasta experiência em Analises de contas médicas.</p1>
+	<ul>	
+		<li>Bacharel em Direiro</li>
+		<li>Universidade Paulista</li>
+		<li>Jan. de 2013 – Junho. de 2018</li>
+	</ul>
+    </section>
+
+    <section id="atuacao">
+        <h2>Atuação Profissional</h2>
+        <p>6 anos de experiência no ramo da saúde, focado em soluções administrativas, assessorias médicas,
+burocracias e contribuindo para o crescimento da qualidade de vida para os profissionais da classe
+médica. </p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Ler livros</li>
+            <li>Praticar esportes</li>
+            <li>Viajar</li>
+        </ul>
+        <img src="imagens/foto_perfil.jpg" alt="Foto de Perfil" class="perfil">
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Conteúdos Audiovisuais</h2>
+        <video width="320" height="240" controls>
+            <source src="videos/video_apresentacao.mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <audio controls>
+            <source src="audio/audio_exemplo.mp3" type="audio/mpeg">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Meu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
